@@ -166,3 +166,51 @@
     }
   }
 }
+
+@media (max-width: 450px) {
+  #details{
+    .details{
+      &--info{
+        h2{
+          font-size: 60px;
+        }
+        h3{
+          font-size: 35px;
+        }
+        &__size{
+          p{
+            font-size: 30px;
+          }
+        }
+        h4{
+          font-size: 40px;
+        }
+      }
+
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  #details{
+    .details{
+      &--info{
+        h2{
+          font-size: 55px;
+        }
+        h3{
+          font-size: 32px;
+        }
+        &__size{
+          p{
+            font-size: 30px;
+          }
+        }
+        h4{
+          font-size: 37px;
+        }
+      }
+
+    }
+  }
+}

@@ -167,6 +167,34 @@
   }
 }
 
+@media (max-width: 450px) {
+  .card{
+    &--text{
+      margin-top: 10px;
+      width: 90%;
+      h3{
+        font-size: 25px;
+      }
+      p{
+        font-size: 17px;
+
+      }
+      div{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        font-size: 30px;
+        h4{
+          color: green;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 410px) {
   .card{
     width: 47%;
