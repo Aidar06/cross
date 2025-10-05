@@ -30,3 +30,19 @@
     }
   }
 }
+
+@media (max-width: 450px) {
+  #header {
+    .header{
+      h1{
+        font-size: 35px;
+      }
+      div{
+        font-size: 25px;
+        display: flex;
+        justify-content: space-between;
+        width: 110px;
+      }
+    }
+  }
+}
