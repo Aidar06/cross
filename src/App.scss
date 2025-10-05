@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Story+Script&display=swap');
+@font-face {
+  font-family: andy;
+  src: url('assets/fonts/Andy Bold CY/Andy_Bold.otf');
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+

@@ -1,0 +1,29 @@
+#favorite{
+  padding-top: 110px;
+  width: 100%;
+  background-color: white;
+  font-family: andy, sans-serif;
+  h2{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+  }
+  .favorite{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 60px;
+  }
+  .favoriteD{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    p{
+      font-family: andy, sans-serif;
+      margin-top: 160px;
+    }
+  }
+}
